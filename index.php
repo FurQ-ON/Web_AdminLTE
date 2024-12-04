@@ -18,7 +18,7 @@ if (isset($_GET['aksi'])) {
     $aksi = $_GET['aksi'];
 
     // Tentukan $id berdasarkan jenis aksi (kd_brg atau id_pel)
-    if (isset($_GET['kd_brg'])){
+    if (isset($_GET['kd_brg'])){    //tidak perlu karena tidak ada edit dan hapus
         $id = $_GET['kd_brg'];
 
     }else if(isset($_GET['id_pel'])){
